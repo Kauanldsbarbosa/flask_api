@@ -6,17 +6,13 @@ Esta aplicação Flask fornece uma API para consultar dados sobre a empresa, vag
 
 ### Endpoits
 
-Essa aplicação possui cinco endpoints sendo eles:
+#### Essa aplicação possui cinco endpoints sendo eles:
 
-/empresa -> que retorna os dados da empresa;
-
-/parceiros -> que retorna os dados dos parceiros da empresa;
-
-/vagas -> que retorna uma lista de vagas da empresa;
-
-/vagas/id -> que retorna os dados de uma vaga especifica;
-
-/vagas/id/curriculo -> que o cliente pode enviar seu curriculo para a vaga desejada;
+/empresa -> que retorna os dados da empresa;<br>
+/parceiros -> que retorna os dados dos parceiros da empresa;<br>
+/vagas -> que retorna uma lista de vagas da empresa;<br>
+/vagas/id -> que retorna os dados de uma vaga especifica;<br>
+/vagas/id/curriculo -> que o cliente pode enviar seu curriculo para a vaga desejada.
 
 ## Observações
 
