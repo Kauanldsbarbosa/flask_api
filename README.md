@@ -1,12 +1,9 @@
 # Aplicação flask para consultar informações da empresa
 
-## Descrição
-
 Esta aplicação Flask fornece uma API para consultar dados sobre a empresa, vagas disponiveis na empresa e detalhes sobre a vaga, parceiros da empresa e enviar um curriculo para vagas especificas.
 
 ### Endpoits
-
-#### Essa aplicação possui cinco endpoints sendo eles:
+<b>Essa aplicação possui cinco endpoints sendo eles:</b>
 
 /empresa -> que retorna os dados da empresa;<br>
 /parceiros -> que retorna os dados dos parceiros da empresa;<br>
