@@ -4,9 +4,23 @@
 
 Esta aplicação Flask fornece uma API para consultar dados sobre a empresa, vagas disponiveis na empresa e detalhes sobre a vaga, parceiros da empresa e enviar um curriculo para vagas especificas.
 
+### endpoits
+
+Essa aplicação possui cinco endpoints sendo eles:
+
+/empresa -> que retorna os dados da empresa;
+/parceiros -> que retorna os dados dos parceiros da empresa;
+/vagas -> que retorna uma lista de vagas da empresa;
+/vagas/id -> que retorna os dados de uma vaga especifica;
+/vagas/id/curriculo -> que o cliente pode enviar seu curriculo para a vaga desejada;
+
 ## Observações
 
 Como esse projeto foi criado apenas para fins de demontração, banco de dados ja vem com dois modelos de vagas, quatro de parceiros e uma empresa.
+
+-O retorno de dados esta no formato json.
+-os dados enviados para o endpoint /vagas/id/curriculo devem ser estar formato json.
+
 
 ## Utilização
 
