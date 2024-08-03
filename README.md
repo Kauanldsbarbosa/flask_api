@@ -18,13 +18,13 @@ Esta aplicação Flask fornece uma API para consultar dados sobre a empresa, vag
 
 Como esse projeto foi criado apenas para fins de demontração, banco de dados ja vem com dois modelos de vagas, quatro de parceiros e uma empresa.
 
--O retorno de dados esta no formato json.
--os dados enviados para o endpoint /vagas/id/curriculo devem ser estar formato json.
+-> O retorno de dados esta no formato json.<br>
+-> Os dados enviados para o endpoint /vagas/id/curriculo devem ser estar formato json.
 
 
 ## Utilização
 
-Para utilizar esse repositório siga as seguintes instruções:
+<b>Para utilizar esse repositório siga as seguintes instruções:</b>
 
     1. Crie uma ambiente virtual em sua máquina e ative esse ambiente;
     2. No teminal, execute o comando pip install -r requirements.txt
