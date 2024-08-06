@@ -27,4 +27,4 @@ Como esse projeto foi criado apenas para fins de demontração, banco de dados j
     1. Crie uma ambiente virtual em sua máquina e ative esse ambiente;
     2. No teminal, execute o comando pip install -r requirements.txt
     3. Para iniciar a api basta executar o comando python3 app.py
-    5. Para iniciar os testes de unidade basta executar o comando python3 app_test.py
+    5. Para iniciar os testes de unidade basta executar o comando python3 test_app.py
