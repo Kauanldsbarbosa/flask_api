@@ -3,6 +3,7 @@ from data.database import app_database
 
 
 def configure_database():
+    app_database.close()
     app_database.connect()
     app_database.create_tables([empresa.Empresa, empresa.Links, parceiro.Parceiros, vaga.Vaga, curriculo.Curriculo])
     

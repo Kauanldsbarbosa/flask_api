@@ -24,9 +24,9 @@ class Curriculo(Model):
     @staticmethod
     def add_curriculo_por_dicionario(dict):
         try:
-            vaga_desejada = vaga.Vaga.get_vaga_by_id(dict['vaga_id'])
+            vaga_desejada = vaga.Vaga.get_vaga_by_id(dict['vaga_id'])[0]
             new_curriculo = Curriculo(
-                vaga = vaga_desejada['vaga_id'],
+                vaga = vaga_desejada,
                 nome = dict['nome'],
                 cpf = dict['cpf'],
                 numero_de_telefone = dict['numero_de_telefone'],
@@ -43,5 +43,6 @@ class Curriculo(Model):
     def remove_curriculo_pelo_cpf(cpf):
         try:
             Curriculo.select().where(Curriculo.cpf == cpf).first().delete()
+            return True
         except:
-            pass
+            return False

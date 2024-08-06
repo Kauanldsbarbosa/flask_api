@@ -5,6 +5,7 @@ Esta aplicação Flask fornece uma API para consultar dados sobre a empresa, vag
 ## Endpoits
 <b>Essa aplicação possui cinco endpoints sendo eles:</b>
 
+/ -> fornece o link para esse readme<br>
 /empresa -> que retorna os dados da empresa;<br>
 /parceiros -> que retorna os dados dos parceiros da empresa;<br>
 /vagas -> que retorna uma lista de vagas da empresa;<br>
@@ -16,7 +17,7 @@ Esta aplicação Flask fornece uma API para consultar dados sobre a empresa, vag
 Como esse projeto foi criado apenas para fins de demontração, banco de dados ja vem com dois modelos de vagas, quatro de parceiros e uma empresa.
 
 -> O retorno de dados esta no formato json.<br>
--> Os dados enviados para o endpoint /vagas/id/curriculo devem ser estar formato json.
+-> Os arquivos enviados para o endpoint /vagas/id/curriculo devem estar formato de pdf.
 
 
 ## Utilização
@@ -26,5 +27,4 @@ Como esse projeto foi criado apenas para fins de demontração, banco de dados j
     1. Crie uma ambiente virtual em sua máquina e ative esse ambiente;
     2. No teminal, execute o comando pip install -r requirements.txt
     3. Para iniciar a api basta executar o comando python3 app.py
-    5. Para iniciar os testes de unidade basta executar o comando python3 app.py e, em seguida, 
-      em outro terminal, executar o comando python3 app_test.py
+    5. Para iniciar os testes de unidade basta executar o comando python3 app_test.py
